@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sign_up"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        android:layout_gravity="center"
+        app:hintTextColor="@color/yellow"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:layout_marginTop="270dp"    >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:hint="Enter your Name"
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        app:hintTextColor="@color/yellow"
+        android:layout_margin="20dp"    >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMail"
+            android:hint="Enter your E-mail"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_create_24"
+        app:hintTextColor="@color/yellow"
+        android:layout_margin="5dp"    >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etUserName"
+            android:hint="Enter your Unique id"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/baseline_password_24"
+        app:endIconMode="password_toggle"
+        app:hintTextColor="@color/yellow"
+        android:layout_margin="20dp"    >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:hint="Enter your Password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/yellow" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSignUp"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SIGN UP"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:backgroundTint="@color/yellow"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:corner_radius= "0dp"-->
+<!--        />-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@android:color/black"
+        app:cornerRadius="0dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="If already registered, click SIGN IN"/>
+
+</LinearLayout>

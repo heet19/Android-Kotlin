@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    tools:context=".CardFiveActivity">
+
+    <TextView
+        android:id="@+id/androidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dev Ops"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/androidImage"
+        android:layout_below="@id/androidText"
+        android:layout_width="150dp"
+        android:layout_weight="1"
+        android:layout_height="150dp"
+        android:padding="4dp"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="@color/maroon"
+        android:scaleType="centerCrop"
+        app:cardCornerRadius="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dev"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/androidImage"
+        android:layout_margin="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_cardFive"
+            android:textColor="@color/darkblue"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="15dp"/>
+
+    </ScrollView>
+
+</RelativeLayout>

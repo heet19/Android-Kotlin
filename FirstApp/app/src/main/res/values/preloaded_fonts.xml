@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aguafina_script</item>
+        <item>@font/andika_new_basic_bold_italic</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/homemade_apple</item>
+        <item>@font/kadwa_bold</item>
+        <item>@font/poppins_black_italic</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/vampiro_one</item>
+    </array>
+</resources>

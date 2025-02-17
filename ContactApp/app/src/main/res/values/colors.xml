@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_raisin">#231F20</color>
+    <color name="red_persian">#BB4430</color>
+    <color name="blue_verdigris">#7EBDC2</color>
+    <color name="Venilla">#F3DFA2</color>
+    <color name="linen">#EFE6DD</color>
+
+</resources>
